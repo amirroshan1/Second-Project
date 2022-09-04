@@ -1,0 +1,367 @@
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.title {
+  display: inline;
+  font-size: 14px;
+  color: #fff;
+  background-color: #2D2C4C;
+  font-weight: 400;
+  letter-spacing: 2px;
+  padding: 2px 5px;
+  text-align: center;
+}
+
+.header-text {
+  margin-top: 1.5rem;
+  font-family: "HankenLight";
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #2D2C4C;
+}
+
+.para-text {
+  font-size: 1.618rem;
+  line-height: 1.5em;
+  letter-spacing: -0.02em;
+  color: #2D2C4C;
+}
+
+.h3 {
+  color: #20a5e6;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: 0.1rem;
+}
+
+.p {
+  color: #2e2d2d;
+  line-height: 1.5;
+}
+
+.btn-darkblue, .btn-lightblue {
+  display: inline-block;
+  padding: 0.6rem 1rem;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-lightblue {
+  background-color: #20a5e6;
+  color: #fff;
+}
+.btn-lightblue:hover {
+  opacity: 0.816;
+}
+.btn-darkblue {
+  background-color: #2D2C4C;
+  color: #fff;
+}
+.btn-darkblue:hover {
+  opacity: 0.816;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #F2F2F2;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.65rem;
+}
+
+#navbar {
+  background-color: #FCD750;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 1rem;
+  box-shadow: 0px 0px 9px 0px #1f1e1e;
+}
+#navbar .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+#navbar ul {
+  display: flex;
+}
+#navbar li {
+  padding: 1rem;
+}
+#navbar a {
+  font-size: 16px;
+  color: #000;
+  transition: all 0.4s;
+}
+#navbar a:hover {
+  color: #20a5e6;
+}
+#navbar img {
+  width: 31%;
+  cursor: pointer;
+}
+
+#header {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
+  background-color: #FCD750;
+}
+#header .header-content {
+  background: #FCD750;
+  display: flex;
+  color: #2D2C4C;
+  justify-content: space-between;
+}
+#header .header-content h1 {
+  font-size: 95px;
+}
+#header .header-content img {
+  width: 36%;
+  height: 100%;
+}
+#header .header-coll {
+  background-color: #FCD750;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: start;
+}
+#header .header-coll .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+  width: 30%;
+}
+#header .header-coll img {
+  width: 15%;
+}
+#header .header-coll .btn-lightblue {
+  width: 50%;
+  text-align: center;
+}
+
+.our-process {
+  padding: 10rem;
+  background-color: #fff;
+}
+.our-process .items {
+  display: grid;
+  padding-left: 15rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.our-process .items .item {
+  width: 83%;
+}
+.our-process .items .item h3 {
+  margin-bottom: 0.7rem;
+}
+.our-process .flex {
+  display: flex;
+}
+.our-process .flex img {
+  width: 23%;
+  margin-right: 2.5rem;
+}
+
+.responsive {
+  background-color: #BCE3F5;
+  padding: 8.5rem 14rem;
+}
+.responsive h1 {
+  padding: 0.4rem 0;
+}
+.responsive .responsive-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+  text-align: center;
+}
+.responsive .responsive-img img {
+  margin-bottom: 1rem;
+}
+
+.service {
+  padding: 10rem;
+}
+.service .items {
+  display: grid;
+  padding-left: 15rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.service .items .item {
+  width: 83%;
+  padding: 2.5rem;
+}
+.service .items .item h3 {
+  margin-bottom: 0.7rem;
+}
+.service .flex {
+  display: flex;
+}
+.service .flex img {
+  width: 23%;
+  margin-right: 2.5rem;
+}
+
+.about-us {
+  background-color: #FCD750;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+  text-align: center;
+}
+.about-us img {
+  width: 8%;
+}
+.about-us h1 {
+  font-size: 40px;
+  line-height: 2;
+  margin-bottom: 0.3rem;
+}
+.about-us p {
+  margin-bottom: 1.5rem;
+}
+.about-us button {
+  padding: 1rem 2rem;
+  font-size: 15px;
+}
+
+.how {
+  padding: 10rem;
+}
+.how .flex {
+  display: flex;
+}
+.how .flex img {
+  width: 23%;
+  margin-right: 2.5rem;
+  margin-top: -7rem;
+}
+.how .flex button {
+  margin-top: 5rem;
+  padding: 1.1rem 2.1rem;
+  border-radius: 5px;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+}
+
+.footer {
+  background-color: #2D2C4C;
+  padding: 2rem;
+}
+.footer .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .flex .info {
+  display: flex;
+  position: relative;
+}
+.footer .flex .info img {
+  width: 7%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.footer .flex .info .item {
+  margin-left: 7rem;
+}
+.footer .flex .info .item ul {
+  color: #FCD750;
+}
+.footer .flex .info .item ul li {
+  font-size: 14px;
+  line-height: 1.6rem;
+}
+.footer .flex .social h3 {
+  font-size: 30px;
+  line-height: 4rem;
+}
+.footer .flex .social p {
+  color: #fff;
+  font-size: 14px;
+}
+.footer .flex .social .fa {
+  color: #FCD750;
+  font-size: 20px;
+  margin: 1rem 0.3rem;
+  border: 2px solid #FCD750;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.footer .flex .social .fa:nth-child(1) {
+  padding: 0.5rem 0.7rem;
+}
+.footer .flex .social .fa:nth-child(4) {
+  padding: 0.5rem 0.333rem;
+}
+
+@media (max-width: 768px) {
+  #navbar .flex {
+    padding: 0 2rem;
+  }
+  #navbar img {
+    width: 21%;
+  }
+  #header {
+    padding: 6rem 2rem;
+  }
+  #header .header-content h1 {
+    font-size: 75px;
+  }
+  #header .header-content img {
+    width: 30%;
+    height: 100%;
+  }
+  .our-process {
+    padding: 5rem 0;
+  }
+  .our-process .items {
+    padding: 3rem 0 0 12.3rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .our-process .items h3 {
+    line-height: 3;
+  }
+  .responsive {
+    padding: 3rem;
+  }
+  .service {
+    padding: 3rem;
+  }
+  .service .items {
+    padding-left: 7.7rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .how {
+    padding: 3rem;
+  }
+  .footer .flex {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

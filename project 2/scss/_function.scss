@@ -1,0 +1,15 @@
+@function set-text($color) {
+    @if (whiteness($color) > 50) {
+        @return #333;
+    } @else {
+        @return #fff;
+    }
+}
+
+@mixin transition ($property , $duration) {
+    -moz-transition:$property $duration ;
+    -ms-transition: $property $duration;
+    -o-transition: $property $duration;
+    transition: $property $duration;
+}
+

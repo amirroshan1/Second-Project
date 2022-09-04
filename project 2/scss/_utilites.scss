@@ -1,0 +1,79 @@
+.container {
+    max-width: $max-width;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.title {
+    display: inline;
+    font-size: 14px;
+    color: #fff;
+    background-color: $text-color;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+.header-text {  
+    margin-top: 1.5rem;
+    font-family: 'HankenLight';
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: $text-color;
+}
+
+
+.para-text {
+    font-size: 1.618rem;
+    line-height: 1.5em;
+    letter-spacing: -0.02em;
+    color: $text-color;
+}
+
+.h3 {
+    color: $btn-color;
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.1rem;
+}
+
+.p {
+    color: #2e2d2d;
+    line-height: 1.5;
+}
+
+%btn {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer
+}
+
+.btn {
+    &-lightblue{
+        @extend %btn;
+        background-color: $btn-color;
+        color: #fff;
+
+        &:hover {
+            opacity: 0.816;
+        }
+    }
+    &-darkblue{
+        @extend %btn;
+        background-color: $text-color;
+        color: #fff;
+
+        &:hover {
+            opacity: 0.816;
+        }
+    }
+}

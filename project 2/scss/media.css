@@ -1,0 +1,8 @@
+@media (max-width: 768px) {
+  #navbar .flex {
+    padding: 0 2rem;
+  }
+  #navbar img {
+    width: 10%;
+  }
+}/*# sourceMappingURL=media.css.map */
